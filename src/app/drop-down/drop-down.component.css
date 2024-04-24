@@ -1,0 +1,89 @@
+  @import url('https://fonts.googleapis.com/css?family=Poppins');
+  
+  * {
+    font-family: 'Poppins';
+    font-size: small;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-toggle {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    Width: 400px;
+    text-align: left;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin-top: 7px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: none;
+    border-radius: 8px;
+    Width: 400px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    
+  }
+
+  .dropdown-menu li:hover {
+  background-color: #E6F6FC; /* Set the background color on hover */
+}
+
+
+
+  .scrollable {
+    max-height: 350px; /* Set the maximum height for the dropdown menu */
+    overflow-y: auto; /* Enable vertical scrolling */
+    
+    
+  }
+  .scrollable::-webkit-scrollbar {
+    width: 1px; /* Set the width of the scrollbar */
+  }
+  
+  .scrollable::-webkit-scrollbar-track {
+    background-color: #eaeaea; /* Set the background color of the scrollbar track */
+    
+  }
+
+  
+  .scrollable::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the color of the scrollbar thumb */
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 35%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 25px;
+    line-height: 1;
+    transition: transform 0.1s ease-in-out;
+    color: #888;
+  }
+  
+  .arrow.open {
+    transform: rotate(180deg);
+    transform-origin: center;
+  }

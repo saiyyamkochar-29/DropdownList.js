@@ -1,0 +1,9 @@
+<div class="dropdown">
+    <button class="dropdown-toggle" type="button" (click)="toggleDropdown()">
+        <span [ngStyle]="{'color': selectedOption ? 'black' : 'grey'}">{{ selectedOption || placeholder }}</span>
+      <span class="arrow" [ngClass]="{'open': isDropdownOpen}" >&#8964;</span>
+    </button>
+    <ul [ngClass]="{'dropdown-menu': true, 'scrollable': options.length > 7}"[class.show]="isDropdownOpen">
+      <li *ngFor="let option of options" (click)="selectOption(option)" >{{ option }}</li>
+    </ul>
+  </div>
