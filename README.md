@@ -1,27 +1,50 @@
-# Assesment
+# DropdownList.js
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+## 📍 Description
+The DropdownList component is a reusable component built with Angular. It provides a dropdown menu with customizable options and styling. This component is designed to simplify the implementation of dropdown menus in Angular applications.
 
-## Development server
+Made with 🤎 by [Saiyyam Kochar](github.com/saiyyamkochar-29)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📦 Features
+- Dynamic rendering of dropdown options based on input data.
+- Support for custom placeholder text.
+- Two-way data binding for easy integration with parent components.
+- Smooth animation for opening and closing the dropdown menu.
 
-## Code scaffolding
+## ⚙️ Installation
+To install and run the Angular Dropdown Component, follow these steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone this repository to your local machine: `git clone https://github.com/saiyyamkochar-29/DropdownList.js`
 
-## Build
+2. Navigate to the project directory: `cd DropdownList.js-master`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Install dependencies using npm: `npm install`
 
-## Running unit tests
+4. Start the development server: `npm start`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+5. Open your web browser and navigate to `http://localhost:4200`.
 
-## Running end-to-end tests
+## 🤖 Usage
+The DropdownList component can be used to create dropdown menus in Angular applications. To use it, import the `DropdownMenuComponent` in your Angular module and include it in your component's template.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🛠 Technologies Used
+- Angular
+- HTML
+- CSS
+- JavaScript/TypeScript
 
-## Further help
+## 🤝 Contributing
+Contributions to the Angular Dropdown Component are welcome! If you would like to contribute, please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/your-feature-name`).
+6. Create a new Pull Request.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 📬 Contact
+For questions or inquiries, please contact [Saiyyam Kochar](kocharsaiyyam@gmail.com).
+
+
+
+
